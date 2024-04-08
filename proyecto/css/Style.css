@@ -1,5 +1,36 @@
+/* Resetear los márgenes y el padding de todos los elementos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Estilo básico para el footer */
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 60px;
+    /* Espaciado entre el footer y el resto de contenido */
+    margin-top: 20px; /* Puedes ajustar este valor según sea necesario */
+  }
+  
+  a {
+    /*esto hace que los titulo que manda a las pagina de noticias no esten subrayada y escoger el color de la letras */
+      text-decoration: none; 
+      color: rgb(0, 0, 0); 
+  }
 
+  p {
+      font-size: 20px; 
+  }
 
-
-
-
+  .carousel-caption {
+  background: rgba(0, 0, 0, 0.5); /* Fondo semitransparente para hacer que el texto sea legible */
+  color: white; /* Color del texto */
+  position: absolute; /* Coloca el tÃ­tulo de forma absoluta dentro del carrusel */
+  bottom: 0; /* Alinea el tÃ­tulo en la parte inferior del carrusel */
+  left: 0; /* Alinea el tÃ­tulo a la izquierda */
+  width: 100%; /* Ajusta el ancho para que ocupe todo el ancho del carrusel */
+  padding: 20px; /* AÃ±ade un relleno alrededor del tÃ­tulo */
+}
